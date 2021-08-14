@@ -72,7 +72,7 @@ int main(void){
 		
 		
 		
-		TWCR = 1<<TWSTO | 1<<TWINT;	
+		TWCR = 1<<TWSTO | 1<<TWINT | 1<<TWEN;	
 	}
 	
 }
