@@ -5,7 +5,7 @@
 int main(void){
 	DDRB = 0xFF;
 	_delay_ms(10);
-	PORTB = 1<<PINB0;
+	PORTB = 1<<PINB0;						//Enable current limiter
     while (1){
     }
 }
